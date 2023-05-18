@@ -7,18 +7,18 @@
 - [○]  2.주석을 보고 작성자의 코드가 이해되었나요?
     
     def gradient(X, W, b, y):
-    # N은 데이터 포인트의 개수
-    N = len(y)
+        N은 데이터 포인트의 개수
+        N = len(y)
     
-    # y_pred 준비
-    y_pred = model(X, W, b)
+    y_pred 준비
+        y_pred = model(X, W, b)
     
-    # 공식에 맞게 gradient 계산
-    dW = 1/N * 2 * X.T.dot(y_pred - y)
+    공식에 맞게 gradient 계산
+        dW = 1/N * 2 * X.T.dot(y_pred - y)
         
-    # b의 gradient 계산
-    db = 2 * (y_pred - y).mean()
-    return dW, db
+    b의 gradient 계산
+        db = 2 * (y_pred - y).mean()
+        return dW, db
     
 - [○]  3.코드가 에러를 유발할 가능성이 있나요?
     
