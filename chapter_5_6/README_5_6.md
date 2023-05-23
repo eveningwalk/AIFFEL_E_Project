@@ -45,9 +45,9 @@
     - 없어보입니다.  
     
 4.코드가 간결한가요?       
-    - 코드 문법이 간결해서, 읽기 좋은 구조를 가지고 있습니다.    
-    - 다만, 저도 잘 안지키는 부분이긴 한데     
-    - 파이썬 코드 컨벤션(PEP) :  https://spoqa.github.io/2012/08/03/about-python-coding-convention.html      
-    - 울 참조하시면, 더 좋은 코드 페이지가 될 것 같습니다.      
+ - 코드 문법이 간결해서, 읽기 좋은 구조를 가지고 있습니다.    
+ - 다만, 저도 잘 안지키는 부분이긴 한데     
+ - 파이썬 코드 컨벤션(PEP) :  https://spoqa.github.io/2012/08/03/about-python-coding-convention.html      
+ - 울 참조하시면, 더 좋은 코드 페이지가 될 것 같습니다.      
    
 
