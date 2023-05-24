@@ -59,4 +59,5 @@ model.add(tf.keras.layers.LSTM(8))
 model.add(tf.keras.layers.Dense(8, activation='relu'))
 model.add(tf.keras.layers.Dense(1, activation='sigmoid')) 
 model.summary()
-```
+
+네네```
