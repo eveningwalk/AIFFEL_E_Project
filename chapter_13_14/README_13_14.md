@@ -73,9 +73,11 @@ In addition, It was well-organized structurally, so my eyes was comfortable, and
 - [O] **4. 코드 작성자가 코드를 제대로 이해하고 작성했나요?**
 
 Q: Unlike the official example in the TF, in your code, you seem to use Subclassing api. So, what is best pros for you.
+
 A: It would be nice to be able to use object orientation.
 
 Q: In the denormalize function, you used uint8 for return array's type. Why you use it.
+
 A: Color values range from 0 to 255, and all normalized values are based on color values, so I used them to optimize memory capacity.
 
 - [O] **5. 코드가 간결한가요?**
@@ -97,6 +99,7 @@ for i, fts in enumerate(filters):   #hjnam
 What is the difference between Layer and Model
 - https://stackoverflow.com/questions/55109696/tensorflow-difference-between-tf-keras-layers-layer-vs-tf-keras-model
 - https://stackoverflow.com/questions/56963060/keras-what-is-the-difference-between-model-and-layers
+
 (Maybe you can find better refers:) )
 
     
